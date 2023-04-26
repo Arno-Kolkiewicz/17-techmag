@@ -1,10 +1,43 @@
+@font-face {
+  font-family: 'SpaceGrotesk-VariableFont_wght';
+  src: url(../font/SpaceGrotesk-VariableFont_wght.ttf);
+}
+
 body {
   max-width: 320px;
   margin: auto;
+  text-align: center;
   background: #ddd;
+  font-family: 'SpaceGrotesk-VariableFont_wght';
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header {
+  padding: 30px;
+  background: url(../img/fond-bleu.png);
+  color: #E3F4FF;
+}
+
+header div {
+  background: black;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .cta {
+  background: #060E17;
+  color: #E3F4FF;
+}
+
+nav .cta-light {
+  background: #E3F4FF;
+  color: #060E17;
+  
 }
