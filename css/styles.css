@@ -2,12 +2,19 @@ body {
   max-width: 375px;
   margin: auto;
   font-family: 'Space Grotesk';
-  text-align: center;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+a {
+  color: black;
 }
 
 header {
@@ -19,12 +26,17 @@ header {
 }
 
 header .box-titel {
-  padding: 15px;
+  padding: 25px 50px;
   background: black;
-  font-size: 20pt;
+  font-size: 13pt;
+  text-align: center;
 }
 
-nav {
+header .box-titel p {
+  margin: 20px 0 10px 0;
+}
+
+.cta-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -37,7 +49,7 @@ nav .cta {
   text-decoration: none;
   background: #060E17;
   color: #E3F4FF;
-  font-size: 18pt;
+  font-size: 14pt;
 }
 
 nav .cta-light {
@@ -49,14 +61,19 @@ main {
   background: #E3F4FF;
 }
 
-main .intro {
-  padding: 40px;
-  font-size: 16pt;
+main h2 {
+  font-weight: 300;
+  font-size: 25pt;
 }
 
-main .intro h2 {
-  font-weight: 300;
-  font-size: 30pt;
+main .intro {
+  padding: 40px;
+  font-size: 12pt;
+  text-align: center;
+}
+
+main .intro p {
+  margin: 10px;
 }
 
 main .intro img {
@@ -64,21 +81,48 @@ main .intro img {
   margin: auto;
 }
 
-main .articles {
+main .dark-section {
   padding: 30px;
   background: #060E17;
 }
 
-main .articles h2 {
+main .dark-section h2 {
   color: #E3F4FF;
 }
 
-main .articles .article {
+main .dark-section .card {
+  margin: 30px;
   padding: 15px;
   background: #E3F4FF;
   border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
 }
 
-main .articles .article img {
-  width: 100px;
+main .dark-section .card img {
+  width: 40%;
+}
+
+main .contact {
+  padding: 40px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .contact a {
+  margin: 5px;
+  padding: 10px 20px;
+  background: #060E17;
+  color: #E3F4FF;
+  border-radius: 15px;
+}
+
+footer {
+  padding: 15px;
+  background: #060E17;
+  color: #ffffff30;
+  text-align: center;
 }
