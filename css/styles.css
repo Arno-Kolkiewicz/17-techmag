@@ -12,22 +12,32 @@ img {
 
 header {
   padding: 30px;
+  border-top: 8px solid black;
   background: url(../img/fond-bleu.png);
+  background-size: cover;
   color: #E3F4FF;
 }
 
-header div {
+header .box-titel {
+  padding: 15px;
   background: black;
+  font-size: 20pt;
 }
 
 nav {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 nav .cta {
+  margin: 15px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-decoration: none;
   background: #060E17;
   color: #E3F4FF;
+  font-size: 18pt;
 }
 
 nav .cta-light {
