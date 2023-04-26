@@ -43,5 +43,42 @@ nav .cta {
 nav .cta-light {
   background: #E3F4FF;
   color: #060E17;
-  
+}
+
+main {
+  background: #E3F4FF;
+}
+
+main .intro {
+  padding: 40px;
+  font-size: 16pt;
+}
+
+main .intro h2 {
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+main .intro img {
+  width: 39px;
+  margin: auto;
+}
+
+main .articles {
+  padding: 30px;
+  background: #060E17;
+}
+
+main .articles h2 {
+  color: #E3F4FF;
+}
+
+main .articles .article {
+  padding: 15px;
+  background: #E3F4FF;
+  border-radius: 15px;
+}
+
+main .articles .article img {
+  width: 100px;
 }
