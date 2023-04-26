@@ -1,14 +1,8 @@
-@font-face {
-  font-family: 'SpaceGrotesk-VariableFont_wght';
-  src: url(../font/SpaceGrotesk-VariableFont_wght.ttf);
-}
-
 body {
   max-width: 320px;
   margin: auto;
+  font-family: 'Space Grotesk';
   text-align: center;
-  background: #ddd;
-  font-family: 'SpaceGrotesk-VariableFont_wght';
 }
 
 img {
